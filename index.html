@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>INDUSTIO · 部署测试成功</title>
+<style>
+  :root{
+    --ink:#14171a;
+    --muted:#5f6b76;
+    --line:#e6e9ec;
+    --brand:#0b6bcb;
+    --ok:#0f7b47;
+    --okbg:#e9f7ef;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0;
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background:#f7f9fb;
+    color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Microsoft YaHei",Roboto,Arial,sans-serif;
+    padding:24px;
+  }
+  .card{
+    width:100%;
+    max-width:680px;
+    background:#fff;
+    border:1px solid var(--line);
+    border-radius:14px;
+    padding:40px 36px;
+  }
+  .brand{
+    display:flex;
+    align-items:baseline;
+    gap:10px;
+    margin-bottom:28px;
+  }
+  .logo{
+    font-size:20px;
+    font-weight:700;
+    letter-spacing:.12em;
+  }
+  .brand small{
+    color:var(--muted);
+    font-size:13px;
+    letter-spacing:.04em;
+  }
+  h1{
+    font-size:28px;
+    line-height:1.35;
+    margin:0 0 12px;
+    font-weight:600;
+  }
+  p{
+    color:var(--muted);
+    font-size:15px;
+    line-height:1.75;
+    margin:0 0 18px;
+  }
+  .badge{
+    display:inline-flex;
+    align-items:center;
+    gap:8px;
+    background:var(--okbg);
+    color:var(--ok);
+    font-size:13px;
+    padding:6px 12px;
+    border-radius:999px;
+    margin-bottom:24px;
+  }
+  .dot{
+    width:7px;height:7px;border-radius:50%;
+    background:var(--ok);
+  }
+  ul{
+    margin:0 0 26px;
+    padding-left:20px;
+    color:var(--muted);
+    font-size:14px;
+    line-height:1.9;
+  }
+  a{
+    color:var(--brand);
+    text-decoration:none;
+  }
+  a:hover{text-decoration:underline}
+  .links{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    border-top:1px solid var(--line);
+    padding-top:22px;
+  }
+  .btn{
+    display:inline-block;
+    padding:9px 16px;
+    border:1px solid var(--line);
+    border-radius:8px;
+    font-size:14px;
+    color:var(--ink);
+  }
+  .btn:hover{border-color:#c9d2da;text-decoration:none}
+  .btn.primary{
+    background:var(--ink);
+    color:#fff;
+    border-color:var(--ink);
+  }
+  footer{
+    margin-top:26px;
+    font-size:12px;
+    color:#8b97a3;
+  }
+</style>
+</head>
+<body>
+  <main class="card">
+    <div class="brand">
+      <span class="logo">INDUSTIO</span>
+      <small>Developer Hub</small>
+    </div>
+
+    <div class="badge"><span class="dot"></span>部署成功 · Deployment live</div>
+
+    <h1>第一页上线了。</h1>
+    <p>
+      这是一个最小可用的静态页面，用于验证 GitHub Pages 的完整链路：
+      代码提交 → 自动构建 → 全球访问。页面本身不需要任何服务器、数据库或后端程序。
+    </p>
+
+    <ul>
+      <li>页面文件：<code>index.html</code>（纯 HTML + 内联样式，零依赖）</li>
+      <li>托管位置：GitHub Pages，源为仓库根目录</li>
+      <li>访问地址：<a href="https://industio.github.io">industio.github.io</a></li>
+      <li>后续可加：产品文档、下载页、论坛入口</li>
+    </ul>
+
+    <div class="links">
+      <a class="btn primary" href="https://github.com/industio">GitHub 组织</a>
+      <a class="btn" href="https://docs.armsom.org" target="_blank" rel="noopener">参考文档站（ArmSoM）</a>
+      <a class="btn" href="https://docs.radxa.com" target="_blank" rel="noopener">参考文档站（Radxa）</a>
+    </div>
+
+    <footer>© 2026 INDUSTIO · Static site hosted on GitHub Pages</footer>
+  </main>
+</body>
+</html>
