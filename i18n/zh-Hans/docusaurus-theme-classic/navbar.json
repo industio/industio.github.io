@@ -1,0 +1,42 @@
+{
+  "title": {
+    "message": "INDUSTIO",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "INDUSTIO logo",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Products": {
+    "message": "产品",
+    "description": "Navbar item with label Products"
+  },
+  "item.label.Get started": {
+    "message": "快速上手",
+    "description": "Navbar item with label Get started"
+  },
+  "item.label.Software": {
+    "message": "软件",
+    "description": "Navbar item with label Software"
+  },
+  "item.label.Hardware": {
+    "message": "硬件",
+    "description": "Navbar item with label Hardware"
+  },
+  "item.label.Downloads": {
+    "message": "下载",
+    "description": "Navbar item with label Downloads"
+  },
+  "item.label.FAQ": {
+    "message": "常见问题",
+    "description": "Navbar item with label FAQ"
+  },
+  "item.label.Community": {
+    "message": "社区",
+    "description": "Navbar item with label Community"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar item with label GitHub"
+  }
+}
