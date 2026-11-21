@@ -1,0 +1,100 @@
+{
+  "series": [
+    {
+      "id": "som",
+      "label": "SOM · Core modules",
+      "groups": [
+        {
+          "id": "flagship",
+          "label": "Flagship",
+          "items": [
+            {
+              "name": "TODO SOM Pro",
+              "desc": "TODO SoC · flagship module",
+              "href": "/products/demo-board",
+              "img": "/img/board-blue.svg"
+            }
+          ]
+        },
+        {
+          "id": "cost",
+          "label": "Cost optimized",
+          "items": [
+            {
+              "name": "TODO SOM Lite",
+              "desc": "TODO SoC · cost optimized",
+              "href": "/products/demo-board",
+              "img": "/img/board-teal.svg"
+            }
+          ]
+        },
+        {
+          "id": "ai",
+          "label": "AI accelerated",
+          "items": [
+            {
+              "name": "TODO SOM AI",
+              "desc": "TODO TOPS NPU onboard",
+              "href": "/products/demo-board",
+              "img": "/img/board-purple.svg"
+            },
+            {
+              "name": "TODO SOM AI Lite",
+              "desc": "Compact · TODO TOPS NPU",
+              "href": "/products/demo-board",
+              "img": "/img/board-purple.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sbc",
+      "label": "SBC · Single board computer",
+      "groups": [
+        {
+          "id": "full",
+          "label": "Full featured",
+          "items": [
+            {
+              "name": "TODO SBC",
+              "desc": "TODO SoC · full-featured",
+              "href": "/products/demo-board",
+              "img": "/img/board-teal.svg"
+            }
+          ]
+        },
+        {
+          "id": "entry",
+          "label": "Entry level",
+          "items": [
+            {
+              "name": "TODO SBC Lite",
+              "desc": "TODO SoC · entry level",
+              "href": "/products/demo-board",
+              "img": "/img/board-blue.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "edge",
+      "label": "Edge computers",
+      "groups": [
+        {
+          "id": "fanless",
+          "label": "Fanless boxes",
+          "items": [
+            {
+              "name": "TODO Edge Box",
+              "desc": "Fanless · −40~70 °C",
+              "href": "/products/demo-board",
+              "img": "/img/board-purple.svg"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 160" width="240" height="160" role="img" aria-label="SOM module placeholder">
+  <rect x="12" y="22" width="216" height="116" rx="10" fill="#0b5cd5"/>
+  <rect x="96" y="54" width="48" height="48" rx="6" fill="#083d8f"/>
+  <rect x="104" y="62" width="32" height="32" rx="4" fill="#4a8ff1"/>
+  <rect x="30" y="38" width="30" height="20" rx="3" fill="#083d8f"/>
+  <rect x="180" y="38" width="30" height="20" rx="3" fill="#083d8f"/>
+  <rect x="30" y="102" width="30" height="20" rx="3" fill="#083d8f"/>
+  <rect x="180" y="102" width="30" height="20" rx="3" fill="#083d8f"/>
+  <g fill="#d8b04a">
+    <rect x="40" y="14" width="8" height="8" rx="1"/><rect x="56" y="14" width="8" height="8" rx="1"/><rect x="72" y="14" width="8" height="8" rx="1"/><rect x="88" y="14" width="8" height="8" rx="1"/><rect x="104" y="14" width="8" height="8" rx="1"/><rect x="120" y="14" width="8" height="8" rx="1"/><rect x="136" y="14" width="8" height="8" rx="1"/><rect x="152" y="14" width="8" height="8" rx="1"/><rect x="168" y="14" width="8" height="8" rx="1"/><rect x="184" y="14" width="8" height="8" rx="1"/>
+    <rect x="40" y="138" width="8" height="8" rx="1"/><rect x="56" y="138" width="8" height="8" rx="1"/><rect x="72" y="138" width="8" height="8" rx="1"/><rect x="88" y="138" width="8" height="8" rx="1"/><rect x="104" y="138" width="8" height="8" rx="1"/><rect x="120" y="138" width="8" height="8" rx="1"/><rect x="136" y="138" width="8" height="8" rx="1"/><rect x="152" y="138" width="8" height="8" rx="1"/><rect x="168" y="138" width="8" height="8" rx="1"/><rect x="184" y="138" width="8" height="8" rx="1"/>
+  </g>
+</svg>

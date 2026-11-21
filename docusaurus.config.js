@@ -65,6 +65,28 @@ const config = {
     ],
   ],
 
+  // 本地搜索插件：无需第三方服务、支持中英日德分词、Ctrl+K 快捷键
+  themes: [
+    [
+      require.resolve('@easyops-cn/docusaurus-search-local'),
+      /** @type {import('@easyops-cn/docusaurus-search-local').Options} */
+      ({
+        // 生成带哈希的索引文件，利于缓存更新
+        hashed: true,
+        // 与 i18n.locales 对应的搜索语言（zh 即简体中文分词）
+        language: ['en', 'zh', 'ja', 'de'],
+        // 目标页面上高亮搜索关键词
+        highlightSearchTermsOnTargetPage: true,
+        // 搜索结果使用真实页面路径
+        explicitSearchResultPath: true,
+        // 关键：本文档站 docs 接管根路径，必须告诉插件去 '/' 下找文档
+        docsRouteBasePath: '/',
+        // 搜索结果摘要长度
+        searchResultContextMaxLength: 3,
+      }),
+    ],
+  ],
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({

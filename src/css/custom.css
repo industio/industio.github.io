@@ -95,3 +95,284 @@
 .hero__subtitle {
   opacity: 0.85;
 }
+
+/* ============================================================
+   首页布局（仿 ArmSoM 手法：md 里写 HTML + className，样式集中在这）
+   ============================================================ */
+
+/* —— Hero 横幅：左文案右图，两栏网格 —— */
+.ind-hero {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 2rem;
+  align-items: center;
+  padding: 2.5rem 0 1.5rem;
+}
+
+.ind-eyebrow {
+  color: var(--ifm-color-primary);
+  font-size: 0.8rem;
+  letter-spacing: 0.12em;
+  margin-bottom: 0.75rem;
+}
+
+.ind-hero__copy h1 {
+  font-size: 2.4rem;
+  line-height: 1.2;
+  margin-bottom: 0.75rem;
+}
+
+.ind-hero__lead {
+  font-size: 1.05rem;
+  color: var(--ifm-color-emphasis-700);
+  margin-bottom: 1.25rem;
+}
+
+.ind-hero__actions {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin-bottom: 1.25rem;
+}
+
+.ind-button {
+  display: inline-block;
+  padding: 0.6rem 1.2rem;
+  border-radius: 10px;
+  font-weight: 500;
+  text-decoration: none !important;
+  border: 1px solid transparent;
+}
+
+.ind-button--primary {
+  background: var(--ifm-color-primary);
+  color: #fff;
+}
+
+.ind-button--primary:hover {
+  background: var(--ifm-color-primary-dark);
+  color: #fff;
+}
+
+.ind-button--secondary {
+  color: var(--ifm-color-primary);
+  border-color: var(--ifm-color-primary);
+}
+
+.ind-proof {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  font-size: 0.9rem;
+  color: var(--ifm-color-emphasis-700);
+}
+
+.ind-hero__visual img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/* 手机/平板宽度下收成单栏 */
+@media (max-width: 996px) {
+  .ind-hero {
+    grid-template-columns: 1fr;
+  }
+  .ind-hero__copy h1 {
+    font-size: 1.8rem;
+  }
+}
+
+/* —— 顶部快捷导航：三个小卡片 —— */
+.ind-quicknav {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin: 1.5rem 0 2rem;
+}
+
+.ind-quicknav a {
+  display: block;
+  padding: 0.9rem 1.1rem;
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 12px;
+  text-decoration: none !important;
+  color: inherit;
+}
+
+.ind-quicknav a:hover {
+  border-color: var(--ifm-color-primary);
+}
+
+.ind-quicknav small {
+  display: block;
+  color: var(--ifm-color-emphasis-600);
+}
+
+@media (max-width: 996px) {
+  .ind-quicknav {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* —— 产品选型卡片：四列网格 —— */
+.ind-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.ind-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  min-height: 220px;
+  padding: 1.25rem;
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 14px;
+  color: inherit !important;
+  text-decoration: none !important;
+  transition: border-color 0.2s, transform 0.2s;
+}
+
+.ind-card:hover {
+  border-color: var(--ifm-color-primary);
+  transform: translateY(-2px);
+}
+
+.ind-card__icon {
+  color: var(--ifm-color-primary);
+  font-size: 1.2rem;
+}
+
+.ind-card small {
+  color: var(--ifm-color-emphasis-600);
+  font-size: 0.7rem;
+  letter-spacing: 0.08em;
+}
+
+.ind-card h3 {
+  margin: 0;
+  font-size: 1.05rem;
+}
+
+.ind-card p {
+  font-size: 0.88rem;
+  color: var(--ifm-color-emphasis-700);
+  flex: 1;
+}
+
+.ind-card strong {
+  color: var(--ifm-color-primary);
+  font-weight: 500;
+}
+
+@media (max-width: 996px) {
+  .ind-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .ind-cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* —— 分区导语 —— */
+.ind-section-lead {
+  color: var(--ifm-color-emphasis-700);
+}
+
+/* —— 底部双路径条 —— */
+.ind-paths {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin: 1.5rem 0 2.5rem;
+}
+
+.ind-paths a {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  padding: 1rem 1.2rem;
+  border-radius: 12px;
+  background: var(--ifm-color-emphasis-100);
+  text-decoration: none !important;
+  color: inherit;
+}
+
+.ind-paths a:hover {
+  background: var(--ifm-color-emphasis-200);
+}
+
+.ind-paths span {
+  color: var(--ifm-color-primary);
+  font-size: 0.9rem;
+}
+
+@media (max-width: 996px) {
+  .ind-paths {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ============================================================
+   Radxa 式首页：系列分区 + 产品图片卡
+   md 里只写 <a className="rdx-card">，样式全部集中在这里
+   ============================================================ */
+
+/* 卡片容器：自适应网格，每张卡最小 200px，放得下几列就排几列 */
+.rdx-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1.25rem;
+  margin: 1.5rem 0 2.25rem;
+}
+
+/* 单张产品卡：白底 + 细边框 + 悬停浮起，Radxa 同款 */
+.rdx-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 1.25rem 1rem 1.1rem;
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 14px;
+  background: var(--ifm-background-surface-color);
+  color: inherit !important;
+  text-decoration: none !important;
+  transition: box-shadow 0.2s, transform 0.2s, border-color 0.2s;
+}
+
+.rdx-card:hover {
+  border-color: var(--ifm-color-primary);
+  box-shadow: 0 6px 18px rgba(11, 92, 213, 0.12);
+  transform: translateY(-2px);
+}
+
+.rdx-card img {
+  height: 110px;
+  width: auto;
+  margin: 0 0 0.85rem;
+}
+
+.rdx-card__name {
+  font-weight: 500;
+  font-size: 1rem;
+  margin-bottom: 0.3rem;
+}
+
+.rdx-card small {
+  color: var(--ifm-color-emphasis-600);
+  font-size: 0.82rem;
+}
+
+/* 系列分区导语：跟在 H2 后面的一句灰字 */
+.rdx-section-lead {
+  color: var(--ifm-color-emphasis-700);
+  margin-top: -0.5rem;
+}
