@@ -382,3 +382,191 @@
   color: var(--ifm-color-emphasis-700);
   margin-top: -0.5rem;
 }
+
+/* ============================================================
+   Radxa 风格顶部两级下拉菜单
+   ============================================================ */
+.megaNav {
+  position: relative;
+}
+
+.megaNav__trigger {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.megaNav__caret {
+  font-size: 0.7em;
+  opacity: 0.7;
+}
+
+.megaNav__panel {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 500;
+  /* 常驻 DOM，默认隐藏；显示交给 :hover / :focus-within */
+  display: none;
+  min-width: 430px;
+  /* 面板必须紧贴导航栏，不能留间隙，否则鼠标移入时 hover 会中断 */
+  margin-top: 0;
+  border-radius: 0 0 12px 12px;
+  box-shadow: 0 14px 36px rgba(15, 23, 42, 0.22);
+  border: 1px solid var(--ifm-color-emphasis-300);
+}
+
+/* 透明桥接：覆盖导航底边与面板之间，保证鼠标移动路径上 hover 不中断 */
+.megaNav__panel::before {
+  content: '';
+  position: absolute;
+  top: -8px;
+  left: 0;
+  right: 0;
+  height: 8px;
+}
+
+.megaNav:hover .megaNav__panel,
+.megaNav:focus-within .megaNav__panel {
+  display: flex;
+}
+
+/* 点击链接后暂时隐藏，直到鼠标重新进入 */
+.megaNav--dismissed .megaNav__panel {
+  display: none !important;
+}
+
+.megaNav__left {
+  display: flex;
+  flex-direction: column;
+  min-width: 175px;
+  padding: 0.6rem;
+  background: #20242e;
+  border-radius: 0 0 0 12px;
+}
+
+.megaNav__group {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.55rem 0.8rem;
+  border-radius: 7px;
+  color: #e8ecf3;
+  font-size: 0.9rem;
+  text-decoration: none !important;
+  white-space: nowrap;
+}
+
+.megaNav__group:hover {
+  color: #fff;
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.megaNav__group--active,
+.megaNav__group--active:hover {
+  background: #6abf3a;
+  color: #12210a;
+  font-weight: 650;
+}
+
+.megaNav__right {
+  flex: 1;
+  min-width: 240px;
+  padding: 0.9rem 1.15rem 1rem;
+  background: var(--ifm-background-surface-color, #fff);
+  border-radius: 0 0 12px 0;
+}
+
+.megaNav__rightTitle {
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ifm-color-emphasis-600);
+  padding-bottom: 0.5rem;
+  margin-bottom: 0.35rem;
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.megaNav__items {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  columns: 2;
+  column-gap: 1.5rem;
+}
+
+.megaNav__items li {
+  margin: 0;
+  break-inside: avoid;
+}
+
+.megaNav__items a {
+  display: block;
+  padding: 0.35rem 0.2rem;
+  font-size: 0.9rem;
+  color: inherit;
+  text-decoration: none !important;
+}
+
+.megaNav__items a:hover {
+  color: var(--ifm-color-primary);
+}
+
+.megaNav__all {
+  display: inline-block;
+  margin-top: 0.75rem;
+  font-size: 0.85rem;
+  color: var(--ifm-color-primary);
+  text-decoration: none !important;
+}
+
+@media (max-width: 996px) {
+  .megaNav__panel,
+  .megaNav:hover .megaNav__panel,
+  .megaNav:focus-within .megaNav__panel {
+    display: none !important;
+  }
+}
+
+/* ============================================================
+   技术支持页：联系方式卡片 / 二维码占位
+   ============================================================ */
+.support-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.support-card {
+  padding: 1.1rem;
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 12px;
+}
+
+.support-card h3 {
+  margin: 0 0 0.75rem;
+  font-size: 1rem;
+}
+
+.support-card p {
+  margin: 0.75rem 0 0;
+  font-size: 0.85rem;
+  color: var(--ifm-color-emphasis-700);
+}
+
+.support-qr {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 140px;
+  border: 2px dashed var(--ifm-color-emphasis-400);
+  border-radius: 10px;
+  color: var(--ifm-color-emphasis-600);
+  font-size: 0.8rem;
+  line-height: 1.6;
+  background: var(--ifm-color-emphasis-100);
+}

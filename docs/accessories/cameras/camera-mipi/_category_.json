@@ -1,0 +1,9 @@
+{
+  "label": "MIPI Camera",
+  "position": 1,
+  "collapsed": true,
+  "link": {
+    "type": "doc",
+    "id": "accessories/cameras/camera-mipi/overview"
+  }
+}

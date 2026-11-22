@@ -1,6 +1,7 @@
 {
   "label": "Displays",
   "position": 1,
+  "collapsed": true,
   "link": {
     "type": "doc",
     "id": "accessories/displays/overview"

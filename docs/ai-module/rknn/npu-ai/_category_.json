@@ -1,0 +1,9 @@
+{
+  "label": "NPU & AI SDK",
+  "position": 1,
+  "collapsed": true,
+  "link": {
+    "type": "doc",
+    "id": "ai-module/rknn/npu-ai/overview"
+  }
+}

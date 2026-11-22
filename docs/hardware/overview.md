@@ -1,5 +1,5 @@
 ---
-displayed_sidebar: docsSidebar
+displayed_sidebar: null
 slug: /hardware
 title: Hardware
 sidebar_label: Overview
@@ -26,6 +26,6 @@ description: Carrier board design, power, thermal and mechanical references.
 
 ## Before you design
 
-Read the [design checklist](/som/rockchip/som-rk3576/hardware#design-checklist) for the module
+Read the [design checklist](/som/rockchip/rk357x/som-rk3576/hardware#design-checklist) for the module
 you are using. It is short, and every item on it exists because someone got it wrong and
 had to respin a board.

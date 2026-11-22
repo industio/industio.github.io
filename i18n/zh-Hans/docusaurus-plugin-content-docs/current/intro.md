@@ -1,5 +1,5 @@
 ---
-displayed_sidebar: docsSidebar
+displayed_sidebar: null
 slug: /
 title: INDUSTIO 开发者文档
 sidebar_label: 首页
@@ -37,6 +37,6 @@ INDUSTIO 全部技术资料的唯一入口：原理图、BSP 源码、镜像下�
 
 :::info 站点正在建设中
 标注 **TODO** 的产品都是占位内容。本页的分类、二级分组、产品名、描述与链接
-全部来自 `src/data/products.json`——改这个文件，页面就更新，不需要动代码。
+全部来自 `src/data/catalog.js`——改这个文件，页面就更新，不需要动代码。
 占位图在 `static/img/board-*.svg`，用真实产品图同名替换即可生效。
 :::

@@ -1,6 +1,7 @@
 {
-  "label": "SOM & development boards",
+  "label": "SOM",
   "position": 1,
+  "collapsed": true,
   "link": {
     "type": "doc",
     "id": "som/overview"

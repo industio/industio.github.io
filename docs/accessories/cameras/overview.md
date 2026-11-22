@@ -1,15 +1,14 @@
 ---
-slug: /accessories/cameras
 title: Cameras
 sidebar_label: Overview
 sidebar_position: 1
-description: Cameras documentation (placeholder).
+slug: /accessories/cameras
+displayed_sidebar: accessories_cameras
+description: Cameras overview.
 ---
 
 # Cameras
 
-Placeholder — list the cameras products INDUSTIO offers for INDUSTIO boards.
+TODO — replace this placeholder with the real Cameras overview.
 
-| Model | Compatible with | Status |
-| --- | --- | --- |
-| TODO | TODO | TODO |
+Use the left sidebar to browse the documentation in this section.

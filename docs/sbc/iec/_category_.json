@@ -1,0 +1,9 @@
+{
+  "label": "IEC",
+  "position": 2,
+  "collapsed": true,
+  "link": {
+    "type": "doc",
+    "id": "sbc/iec/overview"
+  }
+}

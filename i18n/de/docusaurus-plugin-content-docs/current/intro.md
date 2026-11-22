@@ -1,5 +1,5 @@
 ---
-displayed_sidebar: docsSidebar
+displayed_sidebar: null
 slug: /
 title: INDUSTIO Entwicklerdokumentation
 sidebar_label: Start

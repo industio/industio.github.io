@@ -1,4 +1,9 @@
 {
   "label": "Rockchip",
-  "position": 1
+  "position": 1,
+  "collapsed": true,
+  "link": {
+    "type": "doc",
+    "id": "som/rockchip/overview"
+  }
 }

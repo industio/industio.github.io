@@ -1,15 +1,14 @@
 ---
-slug: /sbc
-title: Single board computers
+title: SBC
 sidebar_label: Overview
 sidebar_position: 1
-description: Single board computers documentation (placeholder).
+slug: /sbc
+displayed_sidebar: sbc
+description: SBC documentation.
 ---
 
-Ready-to-run single board computers, grouped by performance tier.
+# SBC
 
-| Tier | Products |
-| --- | --- |
-| [Entry level](/sbc/entry-level) | TODO SBC Entry |
-| [Mid range](/sbc/mid-range) | TODO SBC Mid |
-| [High performance](/sbc/high-performance) | TODO SBC High |
+TODO — replace this placeholder with the real SBC overview.
+
+Use the left sidebar to browse the documentation in this section.

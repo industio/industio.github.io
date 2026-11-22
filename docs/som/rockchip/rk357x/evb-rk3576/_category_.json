@@ -1,0 +1,9 @@
+{
+  "label": "EVB RK3576",
+  "position": 2,
+  "collapsed": true,
+  "link": {
+    "type": "doc",
+    "id": "som/rockchip/rk357x/evb-rk3576/overview"
+  }
+}

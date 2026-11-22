@@ -1,11 +1,11 @@
 ---
-displayed_sidebar: docsSidebar
 slug: /
+displayed_sidebar: null
 title: INDUSTIO Documentation Center
 sidebar_label: Home
 sidebar_position: 1
-description: Official documentation for INDUSTIO ARM & RISC-V system-on-modules, single board computers, edge computers and edge AI products. Getting started guides, BSP, hardware design references and downloads.
-keywords: [INDUSTIO, SOM, SBC, edge computer, edge AI, Rockchip, Allwinner, RKNN, embedded Linux]
+description: Official documentation for INDUSTIO SOM, SBC, edge boxes, AI modules and accessories.
+keywords: [INDUSTIO, SOM, SBC, edge AI, Rockchip, Allwinner, RKNN]
 ---
 
 import SearchBar from "@easyops-cn/docusaurus-search-local/dist/client/client/theme/SearchBar";
@@ -13,8 +13,7 @@ import ProductCatalog from "@site/src/components/ProductCatalog";
 
 # INDUSTIO Documentation Center
 
-All hardware documentation, BSP sources, images and engineering notes for INDUSTIO
-products. Every product ships the same five pages — learn one, read all.
+All hardware documentation, BSP sources, images and engineering notes for INDUSTIO products.
 
 <div className="home-search">
   <SearchBar />
@@ -35,9 +34,7 @@ products. Every product ships the same five pages — learn one, read all.
   </a>
 </div>
 
-:::info This site is under construction
-Products marked **TODO** are placeholders. Everything on this page — categories, sub-groups,
-product names, descriptions and links — comes from `src/data/products.json`. Edit that file
-and the page updates; no code changes needed. Placeholder images are in
-`static/img/board-*.svg`; replace each file with a real product photo (same filename).
+:::info Under construction
+Product names marked TODO are placeholders. Categories, tabs, product cards and links
+all come from `src/data/catalog.js`. Product photos live in `static/img/board-*.svg`.
 :::

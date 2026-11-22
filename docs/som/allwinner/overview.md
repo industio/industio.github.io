@@ -3,11 +3,12 @@ title: Allwinner
 sidebar_label: Overview
 sidebar_position: 1
 slug: /som/allwinner
-description: Allwinner product overview (placeholder).
+displayed_sidebar: som_allwinner
+description: Allwinner overview.
 ---
 
 # Allwinner
 
 TODO — replace this placeholder with the real Allwinner overview.
 
-Products in this category are listed below.
+Use the left sidebar to browse the documentation in this section.

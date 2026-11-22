@@ -1,17 +1,14 @@
 ---
-slug: /accessories
 title: Accessories
 sidebar_label: Overview
 sidebar_position: 1
-description: Accessories documentation (placeholder).
+slug: /accessories
+displayed_sidebar: accessories
+description: Accessories documentation.
 ---
 
-Displays, cameras, wireless modules, cooling and enclosures.
+# Accessories
 
-| Group | Content |
-| --- | --- |
-| [Displays](/accessories/displays) | LVDS / MIPI panels |
-| [Cameras](/accessories/cameras) | MIPI camera modules |
-| [Wireless modules](/accessories/wireless) | Wi-Fi, Bluetooth, LTE |
-| [Cooling](/accessories/cooling) | Heatsinks, thermal design |
-| [Enclosures](/accessories/enclosures) | Boxes and mounting |
+TODO — replace this placeholder with the real Accessories overview.
+
+Use the left sidebar to browse the documentation in this section.

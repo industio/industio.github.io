@@ -1,0 +1,9 @@
+{
+  "label": "4G LTE Module",
+  "position": 2,
+  "collapsed": true,
+  "link": {
+    "type": "doc",
+    "id": "accessories/wireless-modules/lte-module/overview"
+  }
+}

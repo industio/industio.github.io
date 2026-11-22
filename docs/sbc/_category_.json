@@ -1,6 +1,7 @@
 {
-  "label": "Single board computers",
+  "label": "SBC",
   "position": 2,
+  "collapsed": true,
   "link": {
     "type": "doc",
     "id": "sbc/overview"

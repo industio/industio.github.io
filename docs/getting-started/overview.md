@@ -1,5 +1,5 @@
 ---
-displayed_sidebar: docsSidebar
+displayed_sidebar: null
 slug: /getting-started
 title: Getting started
 sidebar_label: Overview
@@ -27,7 +27,7 @@ anything else. Three pages, in order.
 
 :::warning Power supply is the #1 cause of "it won't boot"
 UNDERPOWERED (欠压) boards boot-loop, drop USB devices and corrupt SD cards. Use a supply
-rated for at least the peak current on the [specifications page](/som/rockchip/som-rk3576/specifications),
+rated for at least the peak current on the [specifications page](/som/rockchip/rk357x/som-rk3576/specifications),
 with a short, thick cable.
 :::
 

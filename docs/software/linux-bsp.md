@@ -1,5 +1,5 @@
 ---
-displayed_sidebar: docsSidebar
+displayed_sidebar: null
 title: Linux BSP
 sidebar_label: Linux BSP
 sidebar_position: 2

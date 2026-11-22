@@ -7,37 +7,21 @@
     "message": "INDUSTIO logo",
     "description": "The alt text of navbar logo"
   },
-  "item.label.SOM": {
-    "message": "核心板",
-    "description": "Navbar item with label SOM"
+  "item.label.Home": {
+    "message": "首页",
+    "description": "Navbar item with label Home"
   },
-  "item.label.SBC": {
-    "message": "单板",
-    "description": "Navbar item with label SBC"
+  "item.label.Support": {
+    "message": "支持",
+    "description": "Navbar item with label Support"
   },
-  "item.label.Edge": {
-    "message": "边缘计算",
-    "description": "Navbar item with label Edge"
+  "item.label.Forum": {
+    "message": "论坛",
+    "description": "Navbar item with label Forum"
   },
-  "item.label.Edge AI": {
-    "message": "端侧 AI",
-    "description": "Navbar item with label Edge AI"
-  },
-  "item.label.Accessories": {
-    "message": "配件",
-    "description": "Navbar item with label Accessories"
-  },
-  "item.label.FAQ": {
-    "message": "常见问题",
-    "description": "Navbar item with label FAQ"
-  },
-  "item.label.Community": {
-    "message": "社区",
-    "description": "Navbar item with label Community"
-  },
-  "item.label.Downloads": {
-    "message": "下载",
-    "description": "Navbar item with label Downloads"
+  "item.label.Blog": {
+    "message": "博客",
+    "description": "Navbar item with label Blog"
   },
   "item.label.GitHub": {
     "message": "GitHub",

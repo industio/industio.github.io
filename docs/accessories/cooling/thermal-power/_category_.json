@@ -1,0 +1,9 @@
+{
+  "label": "Thermal & Power",
+  "position": 1,
+  "collapsed": true,
+  "link": {
+    "type": "doc",
+    "id": "accessories/cooling/thermal-power/overview"
+  }
+}

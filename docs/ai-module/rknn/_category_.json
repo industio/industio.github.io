@@ -1,0 +1,9 @@
+{
+  "label": "RKNN",
+  "position": 1,
+  "collapsed": true,
+  "link": {
+    "type": "doc",
+    "id": "ai-module/rknn/overview"
+  }
+}

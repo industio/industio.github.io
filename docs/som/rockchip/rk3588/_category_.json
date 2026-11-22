@@ -1,0 +1,9 @@
+{
+  "label": "RK3588",
+  "position": 4,
+  "collapsed": true,
+  "link": {
+    "type": "doc",
+    "id": "som/rockchip/rk3588/overview"
+  }
+}

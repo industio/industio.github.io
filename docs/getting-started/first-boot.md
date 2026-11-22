@@ -1,5 +1,5 @@
 ---
-displayed_sidebar: docsSidebar
+displayed_sidebar: null
 title: First boot
 sidebar_label: 2. First boot
 sidebar_position: 3
@@ -84,7 +84,7 @@ Work through this in order. Each step eliminates half the remaining possibilitie
 | Kernel panic about rootfs | Card not fully written | Re-flash with `conv=fsync`, verify SHA256 |
 
 Still stuck? Post the full serial log — from the first line to the last — in the
-[community section](/community). A partial log is nearly useless.
+[community section](/support). A partial log is nearly useless.
 
 ## Next
 

@@ -1,14 +1,14 @@
 ---
-slug: /som
-title: SOM & development boards
+title: SOM
 sidebar_label: Overview
 sidebar_position: 1
-description: SOM & development boards documentation (placeholder).
+slug: /som
+displayed_sidebar: som
+description: SOM documentation.
 ---
 
-Core modules and evaluation boards for custom carrier designs, grouped by SoC vendor.
+# SOM
 
-| Vendor | Products |
-| --- | --- |
-| [Rockchip](/som/rockchip) | SOM RK3576, SOM RK3588, EVB RK3576 |
-| [Allwinner](/som/allwinner) | SOM T527, EVB T527 |
+TODO — replace this placeholder with the real SOM overview.
+
+Use the left sidebar to browse the documentation in this section.

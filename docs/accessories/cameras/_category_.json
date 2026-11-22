@@ -1,6 +1,7 @@
 {
   "label": "Cameras",
   "position": 2,
+  "collapsed": true,
   "link": {
     "type": "doc",
     "id": "accessories/cameras/overview"

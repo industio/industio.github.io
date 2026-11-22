@@ -1,5 +1,5 @@
 ---
-displayed_sidebar: docsSidebar
+displayed_sidebar: null
 slug: /downloads
 title: Downloads
 sidebar_label: Overview
@@ -15,7 +15,7 @@ Images, schematics and changelogs are versioned per product. Pick your board:
 
 | Product | Downloads |
 | --- | --- |
-| DEMO-BOARD (template) | [DEMO-BOARD downloads](/som/rockchip/som-rk3576/download) |
+| DEMO-BOARD (template) | [DEMO-BOARD downloads](/som/rockchip/rk357x/som-rk3576/download) |
 
 ## Global resources
 

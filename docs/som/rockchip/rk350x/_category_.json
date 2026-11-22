@@ -1,0 +1,9 @@
+{
+  "label": "RK350X",
+  "position": 3,
+  "collapsed": true,
+  "link": {
+    "type": "doc",
+    "id": "som/rockchip/rk350x/overview"
+  }
+}

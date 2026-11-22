@@ -1,5 +1,6 @@
 // @ts-check
 // `@type` JSDoc 注释可让编辑器自动补全 Docusaurus 配置项
+const { navMenus, supportMenu } = require('./src/data/catalog');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   /* ---------------- 站点基本信息 ---------------- */
@@ -103,14 +104,27 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
-          { type: 'doc', docId: 'som/overview', position: 'left', label: 'SOM' },
-          { type: 'doc', docId: 'sbc/overview', position: 'left', label: 'SBC' },
-          { type: 'doc', docId: 'edge-computers/overview', position: 'left', label: 'Edge' },
-          { type: 'doc', docId: 'edge-ai/overview', position: 'left', label: 'Edge AI' },
-          { type: 'doc', docId: 'accessories/overview', position: 'left', label: 'Accessories' },
-          { type: 'doc', docId: 'faq/overview', position: 'left', label: 'FAQ' },
-          { type: 'doc', docId: 'community/overview', position: 'left', label: 'Community' },
-          { type: 'doc', docId: 'downloads/overview', position: 'left', label: 'Downloads' },
+          // Home 直接回到文档首页
+          { to: '/', label: 'Home', position: 'left' },
+          // 产品大类：自定义两级下拉（左列二级分类，右列三级分类）
+          ...navMenus.map((m) => ({
+            type: 'custom-megaMenu',
+            position: 'left',
+            label: m.label,
+            labelZh: m.labelZh,
+            to: m.href,
+            groups: m.groups,
+          })),
+          // Support 一级下拉
+          {
+            type: 'dropdown',
+            position: 'left',
+            label: supportMenu.label,
+            items: supportMenu.items.map((i) => ({
+              label: i.label,
+              ...(i.external ? { href: i.href } : { to: i.href }),
+            })),
+          },
           // 语言切换下拉框，自动读取上面 i18n.locales
           { type: 'localeDropdown', position: 'right' },
           {
@@ -135,8 +149,8 @@ const config = {
             title: 'Support',
             items: [
               { label: 'FAQ', to: '/faq' },
-              { label: 'Support policy', to: '/community/support-policy' },
-              { label: 'Forum', to: '/community' },
+              { label: 'Technical support', to: '/support' },
+              { label: 'Forum', to: '/support/forum' },
             ],
           },
           {

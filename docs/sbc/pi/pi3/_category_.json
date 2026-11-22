@@ -1,0 +1,9 @@
+{
+  "label": "Pi 3",
+  "position": 3,
+  "collapsed": true,
+  "link": {
+    "type": "doc",
+    "id": "sbc/pi/pi3/overview"
+  }
+}

@@ -1,15 +1,14 @@
 ---
-slug: /accessories/displays
 title: Displays
 sidebar_label: Overview
 sidebar_position: 1
-description: Displays documentation (placeholder).
+slug: /accessories/displays
+displayed_sidebar: accessories_displays
+description: Displays overview.
 ---
 
 # Displays
 
-Placeholder — list the displays products INDUSTIO offers for INDUSTIO boards.
+TODO — replace this placeholder with the real Displays overview.
 
-| Model | Compatible with | Status |
-| --- | --- | --- |
-| TODO | TODO | TODO |
+Use the left sidebar to browse the documentation in this section.
