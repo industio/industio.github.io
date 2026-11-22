@@ -1,0 +1,8 @@
+{
+  "label": "Edge AI modules",
+  "position": 4,
+  "link": {
+    "type": "doc",
+    "id": "edge-ai/overview"
+  }
+}

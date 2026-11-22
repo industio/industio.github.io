@@ -14,7 +14,7 @@ Images, schematics and changelogs are versioned per product. Pick your board:
 
 | Product | Downloads |
 | --- | --- |
-| DEMO-BOARD (template) | [DEMO-BOARD downloads](/products/demo-board/download) |
+| DEMO-BOARD (template) | [DEMO-BOARD downloads](/som/rockchip/som-rk3576/download) |
 
 ## Global resources
 

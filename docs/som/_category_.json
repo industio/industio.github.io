@@ -1,0 +1,8 @@
+{
+  "label": "SOM & development boards",
+  "position": 1,
+  "link": {
+    "type": "doc",
+    "id": "som/overview"
+  }
+}

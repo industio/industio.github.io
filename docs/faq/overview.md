@@ -27,18 +27,18 @@ Buildroot or Yocto when you have a fixed feature set and want to cut boot time.
 
 **Can I run without a heatsink?**
 For short bench work, yes. For anything continuous — no. See
-[power & thermal](/hardware/thermal-power).
+[power & thermal](/accessories/cooling/thermal-power).
 
 **Does the NPU support my model?**
 Most ONNX-exportable models convert. Unusual operators do not. Test the conversion early;
-see [NPU & AI](/software/npu-ai).
+see [NPU & AI](/edge-ai/rknn/npu-ai).
 
 **Can I get the module schematic?**
 EVB schematics are public in [Downloads](/downloads). Module schematics are NDA-gated for
 volume customers.
 
 **Is the board CE / FCC certified?**
-TODO — see the compliance table on the product [specifications](/products/demo-board/specifications).
+TODO — see the compliance table on the product [specifications](/som/rockchip/som-rk3576/specifications).
 
 ## Warranty & RMA
 

@@ -1,0 +1,8 @@
+{
+  "label": "Hardware design",
+  "position": 8,
+  "link": {
+    "type": "doc",
+    "id": "hardware/overview"
+  }
+}

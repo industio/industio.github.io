@@ -1,0 +1,8 @@
+{
+  "label": "Edge computers",
+  "position": 3,
+  "link": {
+    "type": "doc",
+    "id": "edge-computers/overview"
+  }
+}

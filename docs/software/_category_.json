@@ -1,0 +1,8 @@
+{
+  "label": "Software (BSP)",
+  "position": 7,
+  "link": {
+    "type": "doc",
+    "id": "software/overview"
+  }
+}

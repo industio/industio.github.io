@@ -14,8 +14,8 @@ not work**. So this page leads with a support matrix, not with a feature list.
 
 | OS | Version | Kernel | Status | Image |
 | --- | --- | --- | --- | --- |
-| Debian | TODO | TODO | Supported | [Downloads](/products/demo-board/download) |
-| Ubuntu | TODO | TODO | Supported | [Downloads](/products/demo-board/download) |
+| Debian | TODO | TODO | Supported | [Downloads](/som/rockchip/som-rk3576/download) |
+| Ubuntu | TODO | TODO | Supported | [Downloads](/som/rockchip/som-rk3576/download) |
 | Buildroot | TODO | TODO | Community | TODO |
 | Android | TODO | TODO | Supported | TODO |
 | Yocto | TODO | TODO | Supported | TODO |
@@ -27,7 +27,7 @@ not work**. So this page leads with a support matrix, not with a feature list.
 | HDMI out | ✅ | ✅ | ✅ | |
 | MIPI DSI | ✅ | ✅ | ⚠️ | TODO: panel-specific |
 | MIPI CSI | ✅ | ✅ | ⚠️ | |
-| NPU (RKNN) | ✅ | ✅ | ❌ | [Guide](/software/npu-ai) |
+| NPU (RKNN) | ✅ | ✅ | ❌ | [Guide](/edge-ai/rknn/npu-ai) |
 | Hardware video decode | ✅ | ✅ | ✅ | |
 | Wi-Fi | ✅ | ✅ | ⚠️ | |
 | Bluetooth | ✅ | ✅ | ⚠️ | |

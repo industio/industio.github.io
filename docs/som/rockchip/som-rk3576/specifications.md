@@ -18,7 +18,7 @@ Every number needs a condition. "30 fps" is not a spec; "30 fps at 3840 × 2160,
 | Process | TODO nm | |
 | CPU | TODO | e.g. 4 × Cortex-A76 + 4 × Cortex-A55 |
 | GPU | TODO | |
-| NPU | TODO TOPS | INT8, per-model efficiency differs — see [NPU guide](/software/npu-ai) |
+| NPU | TODO TOPS | INT8, per-model efficiency differs — see [NPU guide](/edge-ai/rknn/npu-ai) |
 | VPU decode | TODO | |
 | VPU encode | TODO | |
 
@@ -81,5 +81,5 @@ Every number needs a condition. "30 fps" is not a spec; "30 fps at 3840 × 2160,
 
 :::note
 Numbers on this page must match the latest datasheet revision. When the datasheet changes,
-change this page in the same commit and note it in the [changelog](/products/demo-board/download#changelog).
+change this page in the same commit and note it in the [changelog](/som/rockchip/som-rk3576/download#changelog).
 :::

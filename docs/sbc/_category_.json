@@ -1,0 +1,8 @@
+{
+  "label": "Single board computers",
+  "position": 2,
+  "link": {
+    "type": "doc",
+    "id": "sbc/overview"
+  }
+}

@@ -26,14 +26,14 @@ anything else. Three pages, in order.
 
 :::warning Power supply is the #1 cause of "it won't boot"
 UNDERPOWERED (欠压) boards boot-loop, drop USB devices and corrupt SD cards. Use a supply
-rated for at least the peak current on the [specifications page](/products/demo-board/specifications),
+rated for at least the peak current on the [specifications page](/som/rockchip/som-rk3576/specifications),
 with a short, thick cable.
 :::
 
 ## Which board do I have?
 
 Look at the silkscreen on the top of the module. The part number starts with `ID-`.
-Match it against [Product overview](/products).
+Match it against [Product overview](/som).
 
 ## Stuck?
 

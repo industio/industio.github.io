@@ -1,4 +1,5 @@
 ---
+slug: /som/rockchip/som-rk3576
 title: DEMO-BOARD overview
 sidebar_label: Overview
 sidebar_position: 1
@@ -8,7 +9,7 @@ description: Template product landing page. Rename this folder to your real prod
 # DEMO-BOARD
 
 :::caution Template page
-This is a template. Rename the folder `docs/products/demo-board/` to your real product
+This is a template. Rename the folder `docs/som/rockchip/som-rk3576/` to your real product
 slug (lowercase, hyphens, e.g. `id-som-rk3576`), update `_category_.json`, then rewrite
 the five pages. Keep the five-page structure.
 :::
@@ -58,7 +59,7 @@ configuration and the intended environment.
 
 ## Next steps
 
-- [Specifications](/products/demo-board/specifications)
-- [Hardware design](/products/demo-board/hardware)
-- [Software & BSP](/products/demo-board/software)
-- [Downloads](/products/demo-board/download)
+- [Specifications](/som/rockchip/som-rk3576/specifications)
+- [Hardware design](/som/rockchip/som-rk3576/hardware)
+- [Software & BSP](/som/rockchip/som-rk3576/software)
+- [Downloads](/som/rockchip/som-rk3576/download)

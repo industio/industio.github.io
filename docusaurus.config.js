@@ -103,13 +103,14 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
-          { type: 'doc', docId: 'products/overview', position: 'left', label: 'Products' },
-          { type: 'doc', docId: 'getting-started/overview', position: 'left', label: 'Get started' },
-          { type: 'doc', docId: 'software/overview', position: 'left', label: 'Software' },
-          { type: 'doc', docId: 'hardware/overview', position: 'left', label: 'Hardware' },
-          { type: 'doc', docId: 'downloads/overview', position: 'left', label: 'Downloads' },
+          { type: 'doc', docId: 'som/overview', position: 'left', label: 'SOM & dev boards' },
+          { type: 'doc', docId: 'sbc/overview', position: 'left', label: 'SBC' },
+          { type: 'doc', docId: 'edge-computers/overview', position: 'left', label: 'Edge computers' },
+          { type: 'doc', docId: 'edge-ai/overview', position: 'left', label: 'Edge AI' },
+          { type: 'doc', docId: 'accessories/overview', position: 'left', label: 'Accessories' },
           { type: 'doc', docId: 'faq/overview', position: 'left', label: 'FAQ' },
           { type: 'doc', docId: 'community/overview', position: 'left', label: 'Community' },
+          { type: 'doc', docId: 'downloads/overview', position: 'left', label: 'Downloads' },
           // 语言切换下拉框，自动读取上面 i18n.locales
           { type: 'localeDropdown', position: 'right' },
           {
@@ -125,7 +126,7 @@ const config = {
           {
             title: 'Documentation',
             items: [
-              { label: 'Product overview', to: '/products' },
+              { label: 'SOM & dev boards', to: '/som' },
               { label: 'Getting started', to: '/getting-started' },
               { label: 'Downloads', to: '/downloads' },
             ],

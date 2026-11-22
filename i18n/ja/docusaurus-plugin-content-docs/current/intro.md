@@ -20,7 +20,7 @@ INDUSTIO の技術情報の唯一の入口です。ピン配置、デバイス�
 
 | やりたいこと | ページ |
 | --- | --- |
-| 製品を選定したい | [製品概要](/ja/products) |
+| 製品を選定したい | [製品概要](/ja/som) |
 | 初めて電源を入れたい | [はじめに](/ja/getting-started) |
 | OS イメージを書き込みたい | [イメージの書き込み](/ja/getting-started/flash-image) |
 | 自作のキャリアボードを設計したい | [ハードウェア設計ガイド](/ja/hardware/design-guide) |

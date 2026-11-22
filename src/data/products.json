@@ -15,19 +15,19 @@
             {
               "name": "TODO SOM RK3576",
               "desc": "TODO GB · flagship module",
-              "href": "/products/demo-board",
+              "href": "/som/rockchip/som-rk3576",
               "img": "/img/board-blue.svg"
             },
             {
               "name": "TODO SOM RK3588",
               "desc": "TODO TOPS NPU · high end",
-              "href": "/products/demo-board",
+              "href": "/som/rockchip/som-rk3576",
               "img": "/img/board-purple.svg"
             },
             {
               "name": "TODO EVB RK3576",
               "desc": "Evaluation board · carrier reference",
-              "href": "/products/demo-board",
+              "href": "/som/rockchip/som-rk3576",
               "img": "/img/board-amber.svg"
             }
           ]
@@ -40,13 +40,13 @@
             {
               "name": "TODO SOM T527",
               "desc": "TODO GB · industrial grade",
-              "href": "/products/demo-board",
+              "href": "/som/rockchip/som-rk3576",
               "img": "/img/board-teal.svg"
             },
             {
               "name": "TODO EVB T527",
               "desc": "Evaluation board · carrier reference",
-              "href": "/products/demo-board",
+              "href": "/som/rockchip/som-rk3576",
               "img": "/img/board-amber.svg"
             }
           ]
@@ -68,7 +68,7 @@
             {
               "name": "TODO SBC Entry",
               "desc": "TODO SoC · 1–2 GB",
-              "href": "/products/demo-board",
+              "href": "/som/rockchip/som-rk3576",
               "img": "/img/board-teal.svg"
             }
           ]
@@ -81,7 +81,7 @@
             {
               "name": "TODO SBC Mid",
               "desc": "TODO SoC · 4 GB",
-              "href": "/products/demo-board",
+              "href": "/som/rockchip/som-rk3576",
               "img": "/img/board-blue.svg"
             }
           ]
@@ -94,7 +94,7 @@
             {
               "name": "TODO SBC High",
               "desc": "TODO SoC · 8–16 GB",
-              "href": "/products/demo-board",
+              "href": "/som/rockchip/som-rk3576",
               "img": "/img/board-purple.svg"
             }
           ]
@@ -116,7 +116,7 @@
             {
               "name": "TODO Box PC",
               "desc": "Fanless · DIN rail · −40~70 °C",
-              "href": "/products/demo-board",
+              "href": "/som/rockchip/som-rk3576",
               "img": "/img/board-blue.svg"
             }
           ]
@@ -129,7 +129,7 @@
             {
               "name": "TODO AI Box",
               "desc": "TODO TOPS · multi-camera inference",
-              "href": "/products/demo-board",
+              "href": "/som/rockchip/som-rk3576",
               "img": "/img/board-purple.svg"
             }
           ]
@@ -142,7 +142,7 @@
             {
               "name": "TODO HMI Panel",
               "desc": "TODO inch · touch · IP65 front",
-              "href": "/products/demo-board",
+              "href": "/som/rockchip/som-rk3576",
               "img": "/img/board-amber.svg"
             }
           ]
@@ -164,7 +164,7 @@
             {
               "name": "TODO AI Module RKNN",
               "desc": "TODO TOPS · INT8 · RKNN-Toolkit2",
-              "href": "/software/npu-ai",
+              "href": "/edge-ai/rknn/npu-ai",
               "img": "/img/board-purple.svg"
             }
           ]
@@ -186,13 +186,13 @@
             {
               "name": "TODO 10.1\" LVDS",
               "desc": "1280 × 800 · capacitive touch",
-              "href": "/products/demo-board",
+              "href": "/som/rockchip/som-rk3576",
               "img": "/img/board-teal.svg"
             },
             {
               "name": "TODO 7\" MIPI",
               "desc": "1024 × 600 · capacitive touch",
-              "href": "/products/demo-board",
+              "href": "/som/rockchip/som-rk3576",
               "img": "/img/board-teal.svg"
             }
           ]
@@ -205,7 +205,7 @@
             {
               "name": "TODO MIPI Camera",
               "desc": "TODO MP · 4-lane",
-              "href": "/products/demo-board",
+              "href": "/som/rockchip/som-rk3576",
               "img": "/img/board-blue.svg"
             }
           ]
@@ -218,13 +218,13 @@
             {
               "name": "TODO Wi-Fi 6 module",
               "desc": "Wi-Fi 6 + BT 5.x",
-              "href": "/products/demo-board",
+              "href": "/som/rockchip/som-rk3576",
               "img": "/img/board-purple.svg"
             },
             {
               "name": "TODO 4G module",
               "desc": "LTE Cat.1 · mini PCIe",
-              "href": "/products/demo-board",
+              "href": "/som/rockchip/som-rk3576",
               "img": "/img/board-amber.svg"
             }
           ]
@@ -237,7 +237,7 @@
             {
               "name": "TODO Heatsink",
               "desc": "Aluminium · thermal pad included",
-              "href": "/hardware/thermal-power",
+              "href": "/accessories/cooling/thermal-power",
               "img": "/img/board-teal.svg"
             }
           ]
@@ -250,7 +250,7 @@
             {
               "name": "TODO Enclosure",
               "desc": "Aluminium · DIN rail mount",
-              "href": "/products/demo-board",
+              "href": "/som/rockchip/som-rk3576",
               "img": "/img/board-blue.svg"
             }
           ]

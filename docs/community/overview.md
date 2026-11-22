@@ -26,7 +26,7 @@ Fix them in this file only — every other page links here.
 ## How to ask a question that gets answered
 
 1. **Search first.** Most symptoms are already documented in the product's
-   [Software](/products/demo-board/software) page under known issues.
+   [Software](/som/rockchip/som-rk3576/software) page under known issues.
 2. **State the exact product**, not just the SoC. Two boards with the same SoC can behave
    differently.
 3. **Paste the version**: `cat /etc/industio-release`.

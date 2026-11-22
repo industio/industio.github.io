@@ -19,7 +19,7 @@ Das Grundgerüst steht. Seiten mit **TODO** sind Platzhalter und werden nach und
 
 | Ich möchte … | Seite |
 | --- | --- |
-| ein Produkt auswählen | [Produktübersicht](/de/products) |
+| ein Produkt auswählen | [Produktübersicht](/de/som) |
 | ein Board zum ersten Mal einschalten | [Erste Schritte](/de/getting-started) |
 | ein Image flashen | [Image flashen](/de/getting-started/flash-image) |
 | ein eigenes Trägerboard entwerfen | [Hardware-Designleitfaden](/de/hardware/design-guide) |

@@ -11,7 +11,7 @@ description: Carrier board design, power, thermal and mechanical references.
 | Topic | Page |
 | --- | --- |
 | Designing a carrier board around a SOM | [Design guide](/hardware/design-guide) |
-| Power sequencing, thermal, EMC | [Power & thermal](/hardware/thermal-power) |
+| Power sequencing, thermal, EMC | [Power & thermal](/accessories/cooling/thermal-power) |
 
 ## Documents you will need
 
@@ -25,6 +25,6 @@ description: Carrier board design, power, thermal and mechanical references.
 
 ## Before you design
 
-Read the [design checklist](/products/demo-board/hardware#design-checklist) for the module
+Read the [design checklist](/som/rockchip/som-rk3576/hardware#design-checklist) for the module
 you are using. It is short, and every item on it exists because someone got it wrong and
 had to respin a board.

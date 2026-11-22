@@ -1,0 +1,8 @@
+{
+  "label": "Cooling",
+  "position": 4,
+  "link": {
+    "type": "doc",
+    "id": "accessories/cooling/thermal-power"
+  }
+}
