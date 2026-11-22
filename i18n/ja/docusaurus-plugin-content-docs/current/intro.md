@@ -1,4 +1,5 @@
 ---
+displayed_sidebar: docsSidebar
 slug: /
 title: INDUSTIO 開発者ドキュメント
 sidebar_label: ホーム

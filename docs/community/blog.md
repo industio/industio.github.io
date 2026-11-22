@@ -1,4 +1,5 @@
 ---
+displayed_sidebar: docsSidebar
 title: Blog
 sidebar_label: Overview
 sidebar_position: 1

@@ -52,6 +52,12 @@
   font-size: 0.92rem;
 }
 
+/* 导航栏：标签不换行，始终单行显示 */
+.navbar__link,
+.navbar__title {
+  white-space: nowrap;
+}
+
 .markdown table th {
   background: var(--ifm-color-emphasis-100);
   font-weight: 650;

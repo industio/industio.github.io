@@ -1,4 +1,5 @@
 ---
+displayed_sidebar: docsSidebar
 slug: /software
 title: Software
 sidebar_label: Overview

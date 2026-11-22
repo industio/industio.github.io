@@ -1,4 +1,5 @@
 ---
+displayed_sidebar: docsSidebar
 slug: /community
 title: Community & support
 sidebar_label: Overview

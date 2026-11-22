@@ -103,9 +103,9 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
-          { type: 'doc', docId: 'som/overview', position: 'left', label: 'SOM & dev boards' },
+          { type: 'doc', docId: 'som/overview', position: 'left', label: 'SOM' },
           { type: 'doc', docId: 'sbc/overview', position: 'left', label: 'SBC' },
-          { type: 'doc', docId: 'edge-computers/overview', position: 'left', label: 'Edge computers' },
+          { type: 'doc', docId: 'edge-computers/overview', position: 'left', label: 'Edge' },
           { type: 'doc', docId: 'edge-ai/overview', position: 'left', label: 'Edge AI' },
           { type: 'doc', docId: 'accessories/overview', position: 'left', label: 'Accessories' },
           { type: 'doc', docId: 'faq/overview', position: 'left', label: 'FAQ' },

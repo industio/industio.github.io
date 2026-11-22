@@ -1,4 +1,5 @@
 ---
+displayed_sidebar: docsSidebar
 title: Flash an image
 sidebar_label: 1. Flash an image
 sidebar_position: 2

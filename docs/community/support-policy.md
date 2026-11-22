@@ -1,4 +1,5 @@
 ---
+displayed_sidebar: docsSidebar
 title: Support policy
 sidebar_label: Support policy
 sidebar_position: 2

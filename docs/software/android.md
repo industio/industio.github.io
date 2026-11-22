@@ -1,4 +1,5 @@
 ---
+displayed_sidebar: docsSidebar
 title: Android
 sidebar_label: Android
 sidebar_position: 4

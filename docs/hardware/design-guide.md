@@ -1,4 +1,5 @@
 ---
+displayed_sidebar: docsSidebar
 title: Design guide
 sidebar_label: Design guide
 sidebar_position: 2

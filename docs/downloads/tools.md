@@ -1,4 +1,5 @@
 ---
+displayed_sidebar: docsSidebar
 title: Tools
 sidebar_label: Tools
 sidebar_position: 2

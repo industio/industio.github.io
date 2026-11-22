@@ -1,4 +1,5 @@
 ---
+displayed_sidebar: docsSidebar
 title: Forum
 sidebar_label: Overview
 sidebar_position: 1

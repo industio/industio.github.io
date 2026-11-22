@@ -1,4 +1,5 @@
 ---
+displayed_sidebar: docsSidebar
 slug: /
 title: INDUSTIO Documentation Center
 sidebar_label: Home

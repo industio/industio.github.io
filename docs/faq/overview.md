@@ -1,4 +1,5 @@
 ---
+displayed_sidebar: docsSidebar
 slug: /faq
 title: FAQ
 sidebar_label: Overview

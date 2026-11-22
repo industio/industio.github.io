@@ -7,17 +7,17 @@
     "message": "INDUSTIO logo",
     "description": "The alt text of navbar logo"
   },
-  "item.label.SOM & dev boards": {
-    "message": "核心板 & 开发板",
-    "description": "Navbar item with label SOM & dev boards"
+  "item.label.SOM": {
+    "message": "核心板",
+    "description": "Navbar item with label SOM"
   },
   "item.label.SBC": {
     "message": "单板",
     "description": "Navbar item with label SBC"
   },
-  "item.label.Edge computers": {
-    "message": "边缘计算机",
-    "description": "Navbar item with label Edge computers"
+  "item.label.Edge": {
+    "message": "边缘计算",
+    "description": "Navbar item with label Edge"
   },
   "item.label.Edge AI": {
     "message": "端侧 AI",
@@ -32,7 +32,7 @@
     "description": "Navbar item with label FAQ"
   },
   "item.label.Community": {
-    "message": "社区 & 支持",
+    "message": "社区",
     "description": "Navbar item with label Community"
   },
   "item.label.Downloads": {

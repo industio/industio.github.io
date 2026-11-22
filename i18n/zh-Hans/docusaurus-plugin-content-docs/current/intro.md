@@ -1,4 +1,5 @@
 ---
+displayed_sidebar: docsSidebar
 slug: /
 title: INDUSTIO 开发者文档
 sidebar_label: 首页

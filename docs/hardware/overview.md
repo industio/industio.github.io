@@ -1,4 +1,5 @@
 ---
+displayed_sidebar: docsSidebar
 slug: /hardware
 title: Hardware
 sidebar_label: Overview

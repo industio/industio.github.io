@@ -1,4 +1,5 @@
 ---
+displayed_sidebar: docsSidebar
 title: First boot
 sidebar_label: 2. First boot
 sidebar_position: 3

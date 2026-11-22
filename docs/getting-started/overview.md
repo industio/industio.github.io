@@ -1,4 +1,5 @@
 ---
+displayed_sidebar: docsSidebar
 slug: /getting-started
 title: Getting started
 sidebar_label: Overview

@@ -1,4 +1,5 @@
 ---
+displayed_sidebar: docsSidebar
 slug: /downloads
 title: Downloads
 sidebar_label: Overview
