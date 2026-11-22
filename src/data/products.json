@@ -1,48 +1,53 @@
 {
-  "series": [
+  "categories": [
     {
       "id": "som",
-      "label": "SOM · Core modules",
+      "label": "SOM & development boards",
+      "labelZh": "核心板 & 开发板",
+      "desc": "Core modules and evaluation boards for custom carrier designs.",
+      "descZh": "核心板与配套开发板，面向客户自定义底板设计。",
       "groups": [
         {
-          "id": "flagship",
-          "label": "Flagship",
+          "id": "rockchip",
+          "label": "Rockchip",
+          "labelZh": "Rockchip",
           "items": [
             {
-              "name": "TODO SOM Pro",
-              "desc": "TODO SoC · flagship module",
+              "name": "TODO SOM RK3576",
+              "desc": "TODO GB · flagship module",
               "href": "/products/demo-board",
               "img": "/img/board-blue.svg"
-            }
-          ]
-        },
-        {
-          "id": "cost",
-          "label": "Cost optimized",
-          "items": [
+            },
             {
-              "name": "TODO SOM Lite",
-              "desc": "TODO SoC · cost optimized",
-              "href": "/products/demo-board",
-              "img": "/img/board-teal.svg"
-            }
-          ]
-        },
-        {
-          "id": "ai",
-          "label": "AI accelerated",
-          "items": [
-            {
-              "name": "TODO SOM AI",
-              "desc": "TODO TOPS NPU onboard",
+              "name": "TODO SOM RK3588",
+              "desc": "TODO TOPS NPU · high end",
               "href": "/products/demo-board",
               "img": "/img/board-purple.svg"
             },
             {
-              "name": "TODO SOM AI Lite",
-              "desc": "Compact · TODO TOPS NPU",
+              "name": "TODO EVB RK3576",
+              "desc": "Evaluation board · carrier reference",
               "href": "/products/demo-board",
-              "img": "/img/board-purple.svg"
+              "img": "/img/board-amber.svg"
+            }
+          ]
+        },
+        {
+          "id": "allwinner",
+          "label": "Allwinner",
+          "labelZh": "Allwinner",
+          "items": [
+            {
+              "name": "TODO SOM T527",
+              "desc": "TODO GB · industrial grade",
+              "href": "/products/demo-board",
+              "img": "/img/board-teal.svg"
+            },
+            {
+              "name": "TODO EVB T527",
+              "desc": "Evaluation board · carrier reference",
+              "href": "/products/demo-board",
+              "img": "/img/board-amber.svg"
             }
           ]
         }
@@ -50,29 +55,47 @@
     },
     {
       "id": "sbc",
-      "label": "SBC · Single board computer",
+      "label": "Single board computers",
+      "labelZh": "单板",
+      "desc": "Ready-to-run boards, grouped by performance tier.",
+      "descZh": "开箱即用的单板计算机，按性能档位划分。",
       "groups": [
         {
-          "id": "full",
-          "label": "Full featured",
+          "id": "entry",
+          "label": "Entry level",
+          "labelZh": "入门级性能",
           "items": [
             {
-              "name": "TODO SBC",
-              "desc": "TODO SoC · full-featured",
+              "name": "TODO SBC Entry",
+              "desc": "TODO SoC · 1–2 GB",
               "href": "/products/demo-board",
               "img": "/img/board-teal.svg"
             }
           ]
         },
         {
-          "id": "entry",
-          "label": "Entry level",
+          "id": "mid",
+          "label": "Mid range",
+          "labelZh": "中性能",
           "items": [
             {
-              "name": "TODO SBC Lite",
-              "desc": "TODO SoC · entry level",
+              "name": "TODO SBC Mid",
+              "desc": "TODO SoC · 4 GB",
               "href": "/products/demo-board",
               "img": "/img/board-blue.svg"
+            }
+          ]
+        },
+        {
+          "id": "high",
+          "label": "High performance",
+          "labelZh": "高性能",
+          "items": [
+            {
+              "name": "TODO SBC High",
+              "desc": "TODO SoC · 8–16 GB",
+              "href": "/products/demo-board",
+              "img": "/img/board-purple.svg"
             }
           ]
         }
@@ -81,16 +104,191 @@
     {
       "id": "edge",
       "label": "Edge computers",
+      "labelZh": "边缘计算机",
+      "desc": "Fanless industrial computers for on-site deployment.",
+      "descZh": "无风扇工业整机，适合现场长期运行。",
       "groups": [
         {
-          "id": "fanless",
-          "label": "Fanless boxes",
+          "id": "industrial-box",
+          "label": "Industrial box PC",
+          "labelZh": "工控盒子",
           "items": [
             {
-              "name": "TODO Edge Box",
-              "desc": "Fanless · −40~70 °C",
+              "name": "TODO Box PC",
+              "desc": "Fanless · DIN rail · −40~70 °C",
+              "href": "/products/demo-board",
+              "img": "/img/board-blue.svg"
+            }
+          ]
+        },
+        {
+          "id": "ai-box",
+          "label": "Edge AI box",
+          "labelZh": "端侧AI盒子",
+          "items": [
+            {
+              "name": "TODO AI Box",
+              "desc": "TODO TOPS · multi-camera inference",
               "href": "/products/demo-board",
               "img": "/img/board-purple.svg"
+            }
+          ]
+        },
+        {
+          "id": "hmi",
+          "label": "Industrial HMI",
+          "labelZh": "工业HMI",
+          "items": [
+            {
+              "name": "TODO HMI Panel",
+              "desc": "TODO inch · touch · IP65 front",
+              "href": "/products/demo-board",
+              "img": "/img/board-amber.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "edge-ai",
+      "label": "Edge AI modules",
+      "labelZh": "端侧 AI 模组",
+      "desc": "NPU modules and toolchains for on-device inference.",
+      "descZh": "带 NPU 的模组与工具链，面向端侧推理。",
+      "groups": [
+        {
+          "id": "rknn",
+          "label": "RKNN",
+          "labelZh": "RKNN",
+          "items": [
+            {
+              "name": "TODO AI Module RKNN",
+              "desc": "TODO TOPS · INT8 · RKNN-Toolkit2",
+              "href": "/software/npu-ai",
+              "img": "/img/board-purple.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "accessories",
+      "label": "Accessories",
+      "labelZh": "配件",
+      "desc": "Displays, cameras, wireless modules, cooling and enclosures.",
+      "descZh": "屏幕、摄像头、通信模组、散热与外壳。",
+      "groups": [
+        {
+          "id": "display",
+          "label": "Displays",
+          "labelZh": "屏幕",
+          "items": [
+            {
+              "name": "TODO 10.1\" LVDS",
+              "desc": "1280 × 800 · capacitive touch",
+              "href": "/products/demo-board",
+              "img": "/img/board-teal.svg"
+            },
+            {
+              "name": "TODO 7\" MIPI",
+              "desc": "1024 × 600 · capacitive touch",
+              "href": "/products/demo-board",
+              "img": "/img/board-teal.svg"
+            }
+          ]
+        },
+        {
+          "id": "camera",
+          "label": "Cameras",
+          "labelZh": "摄像头",
+          "items": [
+            {
+              "name": "TODO MIPI Camera",
+              "desc": "TODO MP · 4-lane",
+              "href": "/products/demo-board",
+              "img": "/img/board-blue.svg"
+            }
+          ]
+        },
+        {
+          "id": "wireless",
+          "label": "Wireless modules",
+          "labelZh": "通信模组",
+          "items": [
+            {
+              "name": "TODO Wi-Fi 6 module",
+              "desc": "Wi-Fi 6 + BT 5.x",
+              "href": "/products/demo-board",
+              "img": "/img/board-purple.svg"
+            },
+            {
+              "name": "TODO 4G module",
+              "desc": "LTE Cat.1 · mini PCIe",
+              "href": "/products/demo-board",
+              "img": "/img/board-amber.svg"
+            }
+          ]
+        },
+        {
+          "id": "cooling",
+          "label": "Cooling",
+          "labelZh": "散热器",
+          "items": [
+            {
+              "name": "TODO Heatsink",
+              "desc": "Aluminium · thermal pad included",
+              "href": "/hardware/thermal-power",
+              "img": "/img/board-teal.svg"
+            }
+          ]
+        },
+        {
+          "id": "enclosure",
+          "label": "Enclosures",
+          "labelZh": "外壳",
+          "items": [
+            {
+              "name": "TODO Enclosure",
+              "desc": "Aluminium · DIN rail mount",
+              "href": "/products/demo-board",
+              "img": "/img/board-blue.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "community",
+      "label": "Community & support",
+      "labelZh": "社区 & 支持",
+      "desc": "Where to buy, where to ask, what we publish.",
+      "descZh": "在哪买、在哪问、我们发布什么。",
+      "groups": [
+        {
+          "id": "community-links",
+          "label": "",
+          "labelZh": "",
+          "items": [
+            {
+              "name": "How to buy",
+              "nameZh": "购买",
+              "desc": "Distributors, samples and volume pricing",
+              "descZh": "代理商、样品与批量报价",
+              "href": "/community"
+            },
+            {
+              "name": "Forum",
+              "nameZh": "论坛",
+              "desc": "Ask questions, share projects",
+              "descZh": "提问、分享项目经验",
+              "href": "/community"
+            },
+            {
+              "name": "Blog",
+              "nameZh": "博客",
+              "desc": "Release notes and engineering posts",
+              "descZh": "版本发布与工程文章",
+              "href": "/community"
             }
           ]
         }
