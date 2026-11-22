@@ -1,3 +1,55 @@
+/* ============ 首页大搜索框 ============ */
+
+.home-search {
+  position: relative;
+  max-width: 680px;
+  margin: 0 auto 2rem;
+}
+
+/*
+ * 关键修复：autocomplete.js 初始化时会把 input 包进一层
+ * inline-style display:inline-block 的包装 span（悬停触发索引加载后才生成），
+ * 导致输入框 width:100% 塌缩。
+ * 用 :has() 结构选择器兜底：凡是直接包着 input 的元素一律 block + 全宽，
+ * 不依赖类名（插件的 CSS module 哈希类每次构建都会变）。
+ */
+.home-search span:has(> input),
+.home-search .algolia-autocomplete {
+  display: block !important;
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+/* 克隆的"幽灵提示"输入框（autocomplete.js 的 hint），跟随主输入框同宽 */
+.home-search .algolia-autocomplete .aa-hint,
+.home-search .algolia-autocomplete .aa-input,
+.home-search input {
+  width: 100% !important;
+}
+
+.home-search input {
+  height: 3.2rem !important;
+  font-size: 1.05rem !important;
+  border-radius: 14px !important;
+  border: 1px solid var(--ifm-color-emphasis-300) !important;
+  background: var(--ifm-background-surface-color) !important;
+  color: var(--ifm-font-color-base) !important;
+  padding: 0 1rem 0 2.8rem !important;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.04);
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.home-search input:focus {
+  border-color: var(--ifm-color-primary) !important;
+  box-shadow: 0 0 0 3px rgba(11, 92, 213, 0.15);
+  outline: none !important;
+}
+
+.home-search svg {
+  width: 1.4rem;
+  height: 1.4rem;
+}
+
 /* ============ 产品目录（按分类平铺） ============ */
 
 .cat {
