@@ -21,8 +21,8 @@ const config = {
   // 关闭末尾斜杠，URL 更干净：/products/demo-board/overview
   trailingSlash: false,
 
-  // 死链策略：开发阶段用 warn（先跑通），上线前改成 throw（强制体检）
-  onBrokenLinks: 'warn',
+  // 死链策略：上线后强制体检，任何失效链接直接让 CI 构建失败（本地已验证 0 死链）
+  onBrokenLinks: 'throw',
 
   /* ---------------- 多语言核心配置 ---------------- */
   // defaultLocale 的语言内容直接放在 docs/ 下

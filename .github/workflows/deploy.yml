@@ -29,11 +29,15 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          # showLastUpdateTime 需要读 git 历史，浅克隆会让最后更新时间不准
+          fetch-depth: 0
 
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          # 与本地开发环境保持一致（Node 22）
+          node-version: 22
           cache: npm
 
       - name: Install dependencies
