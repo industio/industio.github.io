@@ -15,8 +15,9 @@ const config = {
   baseUrl: '/',
 
   // 仓库信息：右上角 "Edit this page" 链接和 docusaurus deploy 会用到
+  // 注意：实际仓库是组织站点仓库 industio/industio.github.io（不是 industio-docs）
   organizationName: 'industio',
-  projectName: 'industio-docs',
+  projectName: 'industio.github.io',
 
   // 关闭末尾斜杠，URL 更干净：/products/demo-board/overview
   trailingSlash: false,
@@ -47,7 +48,7 @@ const config = {
           // 关键：文档接管站点根路径。写 docs/intro.md 就得到 https://doc.industio.com/intro
           routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/industio/industio-docs/edit/main/',
+          editUrl: 'https://github.com/industio/industio.github.io/edit/main/',
           breadcrumbs: true,
           showLastUpdateTime: true,
           // 侧边栏可折叠、默认展开一层
