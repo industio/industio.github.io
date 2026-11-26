@@ -4,7 +4,7 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 
 /**
- * Radxa 风格两级下拉菜单
+ * 顶部两级下拉菜单（mega menu）
  * 左列：二级分类（hover 切换）；右列：该二级分类下的三级分类 / 产品
  * 数据来源：docusaurus.config.js → src/data/catalog.js 的 navMenus
  *
